@@ -2,6 +2,9 @@
 
 This simple HTML form allows users to enter their first name, last name, email, password, gender, favorite food, and a message. It includes a "Submit" button to send all the information.
 
+<img width="214" alt="form-screenshoot" src="https://github.com/Researcher0619/Patika-Front-End-/assets/102052449/c32abef9-cddc-4a8c-af50-0bb94f2aec9b">
+
+
 ## Form Elements
 
 1. **First Name:** A text input where users can enter their first name.
@@ -20,4 +23,7 @@ This simple HTML form allows users to enter their first name, last name, email, 
 
 ---
 
-**Note:** This is a sample form and does not include real server-side functionality.
+**Note:** This is a sample form and does not include real server-side functionality
+
+
+
