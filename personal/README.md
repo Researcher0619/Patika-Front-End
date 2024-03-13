@@ -2,6 +2,7 @@
 
 Welcome to my personal website! This repository contains the HTML and CSS code for my personal webpage.
 
+<img width="732" alt="personalinfo" src="https://github.com/Researcher0619/Patika-Front-End-/assets/102052449/4c8bf191-d2a2-48c0-843f-33df49854471">
 
 
 
