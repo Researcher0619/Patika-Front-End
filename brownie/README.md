@@ -2,6 +2,10 @@
 
 Welcome to the Chocolate Brownie Recipe! If you have a sweet tooth and love chocolate, you're in for a treat. Follow this simple recipe to create delicious brownies that will satisfy your cravings.
 
+
+![brownie](https://github.com/Researcher0619/Patika-Front-End-/assets/102052449/04f66600-87eb-43c3-9e84-8dc56ca038ce)
+
+
 ## Recipe Details
 
 - **Servings:** 12 servings
