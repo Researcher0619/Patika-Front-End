@@ -1,5 +1,7 @@
 # Özkan Ceyhan Portfolio
 
+## WATCH THE VIDEO BELOW !!!
+
 [![firstportfolio](http://img.youtube.com/vi/n3E67LldO8g/0.jpg)](https://www.youtube.com/watch?v=n3E67LldO8g)
 
 This is the video about my portfolio by using my beginner HTML & CSS knowledge
