@@ -1,16 +1,12 @@
-# Özkan Ceyhan Portfolio
+# Özkan Ceyhan's Portfolio
 
-## WATCH THE VIDEO BELOW !!!
-
-[![firstportfolio](http://img.youtube.com/vi/n3E67LldO8g/0.jpg)](https://www.youtube.com/watch?v=n3E67LldO8g)
-
-This is the video about my portfolio by using my beginner HTML & CSS knowledge
+This is a portfolio website for Özkan Ceyhan, showcasing his projects and providing a way to contact him.
 
 ## Table of Contents
 
 - [Description](#description)
+- [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -18,36 +14,35 @@ This is the video about my portfolio by using my beginner HTML & CSS knowledge
 
 ## Description
 
-This portfolio website showcases my skills, projects, and contact information. It provides visitors with an overview of my experience as a web developer and serves as a platform to display my projects.
+This portfolio website serves as a showcase for Özkan Ceyhan's projects and provides information about him. It includes sections for About Me, Portfolio, and Contact Me.
+
+## Screenshots
+
+[![Screenshot](screenshot.png)](https://example.com)
 
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
-- Font Awesome
 - Google Fonts
-
-## Features
-
-- Responsive design for various devices
-- Animated text highlighting key skills
-- Interactive navigation menu
-- Project section with links to GitHub repositories
-- Contact form for reaching out
+- Font Awesome
 
 ## Installation
 
-To run this project locally, follow these steps:
+To run this website locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Researcher0619/Patika-Front-End-.git`
-2. Navigate to the project directory: `cd Patika-Front-End-`
-3. Open `index.html` in your preferred web browser.
+1. Clone this repository.
+2. Open the `index.html` file in your web browser.
 
 ## Usage
 
-Feel free to use this portfolio template for your own personal use. Customize it with your own information, projects, and styling to make it unique to you.
+Navigate through the different sections of the website using the navigation bar. You can view Özkan Ceyhan's projects in the Portfolio section and contact him via the form in the Contact Me section.
 
 ## Contributing
 
-Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
