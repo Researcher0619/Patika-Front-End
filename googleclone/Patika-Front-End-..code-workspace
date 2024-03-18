@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Downloads/google-clone-master"
+		}
+	],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Patika-Front-End-"
+  }
+}
