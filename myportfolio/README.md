@@ -18,7 +18,9 @@ This portfolio website serves as a showcase for Özkan Ceyhan's projects and pro
 
 ## Screenshots
 
-[![Screenshot](screenshot.png)](https://example.com)
+
+![Uploading Ekran Resmi 2024-03-19 01.49.10.png…]()
+
 
 ## Technologies Used
 
