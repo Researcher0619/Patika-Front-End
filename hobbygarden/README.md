@@ -14,9 +14,11 @@ This website serves as a personal project to showcase my HTML and CSS skills. It
 - Various content sections
 
 ## Screenshots
+![Ekran Resmi 2024-03-19 22 07 08](https://github.com/Researcher0619/Patika-Front-End-/assets/102052449/9f583e4f-6db9-48a3-a2a4-5ae8f38cb042)
 
-![Screenshot 1](screenshot1.png)
-![Screenshot 2](screenshot2.png)
+<br>
+ 
+
 
 ## Installation
 
