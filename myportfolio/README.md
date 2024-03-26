@@ -18,7 +18,8 @@ This portfolio website serves as a showcase for Özkan Ceyhan's projects and pro
 
 ## Screenshots
 
-<img width="1440" alt="sss" src="https://github.com/Researcher0619/Patika-Front-End-/assets/102052449/f57bb886-ef82-4b3b-85d8-e9a4e0ceda23">
+![Ekran Resmi 2024-03-26 21 56 44](https://github.com/Researcher0619/Patika-Front-End-/assets/102052449/fb89d5b1-b653-42cc-a460-01224e01da00)
+
 
 
 
