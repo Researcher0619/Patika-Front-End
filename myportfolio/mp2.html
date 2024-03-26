@@ -19,7 +19,7 @@
 
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #f5f5f5;
+            background-color: #e9ecef; /* Arka plan rengi değiştirildi */
             color: #333;
             line-height: 1.6;
         }
@@ -53,36 +53,12 @@
             color: #f0ad4e;
         }
 
-        /* Hero Section Styles */
-        .hero {
-            background: url('https://source.unsplash.com/1600x900/?programming') center/cover no-repeat;
-            color: #fff;
+        /* Jumbotron Styles */
+        .jumbotron {
             text-align: center;
-            padding: 5rem 0;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 0.8rem 2rem;
-            background-color: #f0ad4e;
+            background: url('https://source.unsplash.com/1600x900/?coding') center/cover no-repeat;
             color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        .btn:hover {
-            background-color: #222;
+            padding: 5rem 0;
         }
 
         /* About Section Styles */
@@ -91,32 +67,17 @@
             padding: 3rem 0;
         }
 
-        .about h2 {
-            font-size: 2.5rem;
-            margin-bottom: 1.5rem;
-            color: #222;
-        }
-
-        .about p {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
-        }
-
         /* Portfolio Section Styles */
         .portfolio {
             padding: 5rem 0;
             background-color: #fff;
         }
 
-        .portfolio h2 {
-            font-size: 2.5rem;
-            text-align: center;
-            margin-bottom: 3rem;
-            color: #222;
-        }
-
         .portfolio-item {
             margin-bottom: 3rem;
+            display: grid; /* Grid sistemi kullanıldı */
+            grid-template-columns: repeat(2, 1fr); /* 2 eşit genişlikte sütunlar */
+            gap: 1rem; /* Sütunlar arası boşluk */
         }
 
         .portfolio-item img {
@@ -147,41 +108,6 @@
             text-align: center;
             background-color: #f0ad4e;
             color: #fff;
-        }
-
-        .contact h2 {
-            font-size: 2.5rem;
-            margin-bottom: 3rem;
-        }
-
-        .contact-form input,
-        .contact-form textarea {
-            width: 100%;
-            padding: 1rem;
-            margin-bottom: 2rem;
-            border: none;
-            border-radius: 5px;
-            font-size: 1.2rem;
-        }
-
-        .contact-form textarea {
-            height: 150px;
-        }
-
-        .contact-form button {
-            padding: 1rem 2rem;
-            background-color: #222;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            font-size: 1.2rem;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        .contact-form button:hover {
-            background-color: #f5f5f5;
-            color: #222;
         }
 
         /* Footer Styles */
@@ -220,8 +146,8 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
+    <!-- Jumbotron Section -->
+    <section class="jumbotron" id="home">
         <div>
             <h1>Welcome to Özkan Ceyhan's Portfolio</h1>
             <p>A Junior Full Stack Web Developer. Passionate about coding and always eager to learn and grow in the world of web development!</p>
@@ -231,56 +157,27 @@
 
     <!-- About Section -->
     <section class="about" id="about">
-        <div>
-            <h2>About Me</h2>
-            <p>In my coding toolbox, you'll find a mix of HTML, CSS, JavaScript, React, Node.js, and MongoDB. I enjoy bringing ideas to life on the web and crafting beautiful user experiences.</p>
+        <div class="container"> <!-- Hakkımızda sayfası bir card yapısı içine alındı -->
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">About Me</h2>
+                    <p class="card-text">In my coding toolbox, you'll find a mix of HTML, CSS, JavaScript, React, Node.js, and MongoDB. I enjoy bringing ideas to life on the web and crafting beautiful user experiences.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Portfolio Section -->
     <section class="portfolio" id="portfolio">
-        <div>
-            <h2>Portfolio</h2>
+        <div class="container"> <!-- Ürünlerimiz sayfası bir card yapısı içine alındı -->
+            <h2 class="portfolio-title">Portfolio</h2>
             <div class="portfolio-item">
-                <img src="https://source.unsplash.com/800x600/?coding" alt="Project 1">
-                <div class="portfolio-item-content">
-                    <h3 class="portfolio-item-title">Project 1</h3>
-                    <p class="portfolio-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget tellus ac sapien tempus consequat.</p>
+                <div class="card">
+                    <img src="https://source.unsplash.com/800x600/?coding" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h3 class="portfolio-item-title">Project 1</h3>
+                        <p class="portfolio-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget tellus ac sapien tempus consequat.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="portfolio-item">
-                <img src="https://source.unsplash.com/800x600/?programming" alt="Project 2">
-                <div class="portfolio-item-content">
-                    <h3 class="portfolio-item-title">Project 2</h3>
-                    <p class="portfolio-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget tellus ac sapien tempus consequat.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div>
-            <h2>Contact Me</h2>
-            <form class="contact-form">
-                <input type="text" name="name" placeholder="Your Name">
-                <input type="email" name="email" placeholder="Your Email">
-                <textarea name="message" placeholder="Your Message"></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <p>&copy; 2024 Özkan Ceyhan. All rights reserved.</p>
-        <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-    </footer>
-</body>
-
-</html>
+                <div class="card">
+                    <img src="https://source.unsplash.com
